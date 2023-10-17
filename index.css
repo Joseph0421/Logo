@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),
+    url(qwerty.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  padding: 10px 20px;
+  border-bottom: orangered solid 5px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.img1 {
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+a {
+  font-size: 20px;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  scroll-behavior: smooth;
+}
+.hero{
+  margin-left: 100px;
+}
+h1 {
+  color: orangered;
+  margin-top: 30px;
+  font-size: 50px;
+  font-family: Arial;
+}
+span {
+  font-family: "Times New Roman";
+  color: whitesmoke;
+}
+p{
+  font-size: 18px;
+  text-align: justify;
+  color:rgba(176, 183, 189, 0.596);
+  padding: 0px 0px;
+}
+input{
+  margin-top: 20px;
+  width: 250px;
+  border-radius: 20px;
+  padding: 5px;
+}
+button{
+  color: white;
+  background-color: orangered;
+  padding: 7px;
+  width: 70px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.img3{
+  width: 100vw;
+}
+.star{
+  position: fixed;
+  bottom: 0px;
+}
